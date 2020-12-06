@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="author" content="Michiel">
+    <meta name="description" content="Michiel&#39;s personal website">
+    <meta name="keywords" content="blog,developer,personal">
+
+    <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="My First Post"/>
+<meta name="twitter:description" content="Welcome to my new website This is the first post on my new website using Hugo. Everything appears to work now. I&rsquo;ve set this up as a static site, so I don&rsquo;t have to worry about the latest php exploit or other vulnerabilities.
+How it works The site is powered by Hugo, a static site generator. The content of the site is written in markdown and stored in a git repository."/>
+
+    <meta property="og:title" content="My First Post" />
+<meta property="og:description" content="Welcome to my new website This is the first post on my new website using Hugo. Everything appears to work now. I&rsquo;ve set this up as a static site, so I don&rsquo;t have to worry about the latest php exploit or other vulnerabilities.
+How it works The site is powered by Hugo, a static site generator. The content of the site is written in markdown and stored in a git repository." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://www.acronica.net/2020/04/my-first-post/" />
+<meta property="article:published_time" content="2020-04-26T15:19:15+02:00" />
+<meta property="article:modified_time" content="2020-04-26T15:19:15+02:00" />
+
+
+    
+      <base href="https://www.acronica.net/2020/04/my-first-post/">
+    
+    <title>
+  My First Post · Michiel Tukker
+</title>
+
+    
+      <link rel="canonical" href="https://www.acronica.net/2020/04/my-first-post/">
+    
+
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700%7CMerriweather:300,700%7CSource+Code+Pro:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous" />
+
+    
+      
+      
+      <link rel="stylesheet" href="https://www.acronica.net/css/coder.min.a4f332213a21ce8eb521670c614470c58923aaaf385e2a73982c31dd7642decb.css" integrity="sha256-pPMyITohzo61IWcMYURwxYkjqq84XipzmCwx3XZC3ss=" crossorigin="anonymous" media="screen" />
+    
+
+    
+
+    
+
+    
+      <link rel="stylesheet" href="https://www.acronica.net/css/custom.css" />
+    
+
+    
+
+    
+
+    <link rel="icon" type="image/png" href="https://www.acronica.net/img/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="https://www.acronica.net/img/favicon-16x16.png" sizes="16x16">
+
+    <meta name="generator" content="Hugo 0.75.1" />
+  </head>
+
+  
+  
+  <body class="colorscheme-light">
+    <main class="wrapper">
+      <nav class="navigation">
+  <section class="container">
+    <a class="navigation-title" href="https://www.acronica.net/">
+      Michiel Tukker
+    </a>
+    
+    <input type="checkbox" id="menu-toggle" />
+    <label class="menu-button float-right" for="menu-toggle"><i class="fas fa-bars"></i></label>
+    <ul class="navigation-list">
+      
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://www.acronica.net/posts/">Blog</a>
+          </li>
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://www.acronica.net/about/">About</a>
+          </li>
+        
+      
+      
+    </ul>
+    
+  </section>
+</nav>
+
+
+      <div class="content">
+        
+  <section class="container post">
+    <article>
+      <header>
+        <div class="post-title">
+          <h1 class="title">My First Post</h1>
+        </div>
+        <div class="post-meta">
+          <div class="date">
+            <span class="posted-on">
+              <i class="fas fa-calendar"></i>
+              <time datetime='2020-04-26T15:19:15&#43;02:00'>
+                April 26, 2020
+              </time>
+            </span>
+            <span class="reading-time">
+              <i class="fas fa-clock"></i>
+              2-minute read
+            </span>
+          </div>
+          
+          
+        </div>
+      </header>
+
+      <div>
+        
+        <h2 id="welcome-to-my-new-website">Welcome to my new website</h2>
+<p>This is the first post on my new website using Hugo. Everything appears to work now. I&rsquo;ve set this up as a static site, so I don&rsquo;t have to worry about the latest php exploit or other vulnerabilities.</p>
+<h2 id="how-it-works">How it works</h2>
+<p>The site is powered by <a href="https://gohugo.io/">Hugo</a>,  a static site generator. The content of the site is written in markdown and stored in a git repository. On my local machien I can write pages and content and test on a local instance of Hugo.  When I&rsquo;m satisfied with the content I can publish the site.</p>
+<p>I have a bare repository on this server, where I can push the commits/changes from my local git repository to my server using <code>git push production master</code>. The repository on my server is configured as a remote repo via ssh. This bare repository has a git post-receive hook, which checks the commit, pulls the changes into a local copy of the git repository and then runs Hugo to publish the website. The website is exported into the html directory of my webserver.</p>
+<p>I got the idea from this <a href="https://kevingimbel.de/blog/2017/01/deploy-a-static-site-with-git/">Blog post describing the general idea</a>,  but that doesn&rsquo;t work because I&rsquo;m using a Hugo theme via <a href="https://git-scm.com/book/nl/v2/Git-Tools-Submodules">git submodules</a> (as the Huge quickstart guide <a href="https://gohugo.io/getting-started/quick-start/#step-3-add-a-theme">tells</a> you to!).  Appearantly you can&rsquo;t init and/or update submodules in a bare repository and git submodules won&rsquo;t listen to the <code>--work-tree</code> and <code>--git-dir</code> flags. You can&rsquo;t push changes to a non-bare repository, because Git doesn&rsquo;t like that. That&rsquo;s why I took the additional step of having a local git repository on the server where I can pull the changes from the bare git repository (I got the idea from this <a href="https://stackoverflow.com/a/9448794">StackOverflow answer</a>).</p>
+<p>It works!</p>
+
+      </div>
+
+
+      <footer>
+        
+
+
+        <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "michiels-personal-site" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+        
+        
+      </footer>
+    </article>
+
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script type="text/javascript" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/startup.js" id="MathJax-script"></script>
+  <script>
+    MathJax = {
+      tex: {
+        inlineMath: [
+          ['$', '$'], ['\\(', '\\)']
+        ],
+        processEscapes: true,
+        processEnvironments: true
+      },
+      options: {
+        skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+      }
+    };
+  </script>
+  </section>
+
+      </div>
+
+      
+  <footer class="footer">
+    <section class="container">
+      
+        <p>My personal website.</p>
+      
+      
+        ©
+        
+        2020
+         Michiel 
+      
+      
+         · 
+        Powered by <a href="https://gohugo.io/">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/">Coder</a>.
+      
+      
+    </section>
+  </footer>
+
+    </main>
+
+    
+
+    
+
+  </body>
+
+</html>

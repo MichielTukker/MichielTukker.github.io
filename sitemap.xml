@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://www.acronica.net/categories/</loc>
+    <lastmod>2020-05-19T22:01:22+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.acronica.net/categories/computers/</loc>
+    <lastmod>2020-05-19T22:01:22+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.acronica.net/2020/05/fedora/</loc>
+    <lastmod>2020-05-19T22:01:22+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.acronica.net/tags/fedora/</loc>
+    <lastmod>2020-05-19T22:01:22+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.acronica.net/tags/linux/</loc>
+    <lastmod>2020-05-19T22:01:22+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.acronica.net/categories/linux/</loc>
+    <lastmod>2020-05-19T22:01:22+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.acronica.net/</loc>
+    <lastmod>2020-05-19T22:01:22+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.acronica.net/posts/</loc>
+    <lastmod>2020-05-19T22:01:22+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.acronica.net/tags/</loc>
+    <lastmod>2020-05-19T22:01:22+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.acronica.net/about/</loc>
+    <lastmod>2020-04-26T15:40:11+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.acronica.net/2020/04/my-first-post/</loc>
+    <lastmod>2020-04-26T15:19:15+02:00</lastmod>
+  </url>
+  
+</urlset>

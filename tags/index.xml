@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Michiel Tukker</title>
+    <link>https://www.acronica.net/tags/</link>
+    <description>Recent content in Tags on Michiel Tukker</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 19 May 2020 22:01:22 +0200</lastBuildDate><atom:link href="https://www.acronica.net/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>fedora</title>
+      <link>https://www.acronica.net/tags/fedora/</link>
+      <pubDate>Tue, 19 May 2020 22:01:22 +0200</pubDate>
+      
+      <guid>https://www.acronica.net/tags/fedora/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>linux</title>
+      <link>https://www.acronica.net/tags/linux/</link>
+      <pubDate>Tue, 19 May 2020 22:01:22 +0200</pubDate>
+      
+      <guid>https://www.acronica.net/tags/linux/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
