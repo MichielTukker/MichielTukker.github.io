@@ -2,26 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Michiel Tukker</title>
-    <link>https://www.acronica.net/tags/</link>
+    <link>https://MichielTukker.github.io/tags/</link>
     <description>Recent content in Tags on Michiel Tukker</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 19 May 2020 22:01:22 +0200</lastBuildDate><atom:link href="https://www.acronica.net/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 19 May 2020 22:01:22 +0200</lastBuildDate><atom:link href="https://MichielTukker.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>fedora</title>
-      <link>https://www.acronica.net/tags/fedora/</link>
+      <link>https://MichielTukker.github.io/tags/fedora/</link>
       <pubDate>Tue, 19 May 2020 22:01:22 +0200</pubDate>
       
-      <guid>https://www.acronica.net/tags/fedora/</guid>
+      <guid>https://MichielTukker.github.io/tags/fedora/</guid>
       <description></description>
     </item>
     
     <item>
       <title>linux</title>
-      <link>https://www.acronica.net/tags/linux/</link>
+      <link>https://MichielTukker.github.io/tags/linux/</link>
       <pubDate>Tue, 19 May 2020 22:01:22 +0200</pubDate>
       
-      <guid>https://www.acronica.net/tags/linux/</guid>
+      <guid>https://MichielTukker.github.io/tags/linux/</guid>
       <description></description>
     </item>
     

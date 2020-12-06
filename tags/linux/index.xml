@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>linux on Michiel Tukker</title>
-    <link>https://www.acronica.net/tags/linux/</link>
+    <link>https://MichielTukker.github.io/tags/linux/</link>
     <description>Recent content in linux on Michiel Tukker</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 19 May 2020 22:01:22 +0200</lastBuildDate><atom:link href="https://www.acronica.net/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 19 May 2020 22:01:22 +0200</lastBuildDate><atom:link href="https://MichielTukker.github.io/tags/linux/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Fedora</title>
-      <link>https://www.acronica.net/2020/05/fedora/</link>
+      <link>https://MichielTukker.github.io/2020/05/fedora/</link>
       <pubDate>Tue, 19 May 2020 22:01:22 +0200</pubDate>
       
-      <guid>https://www.acronica.net/2020/05/fedora/</guid>
+      <guid>https://MichielTukker.github.io/2020/05/fedora/</guid>
       <description>Switching to Fedora 32 So I switched to Fedora 32 last week, after getting annoyed with Ubuntu 20.04 pushing snap-packages everywhere. Fedora has been a delight, although I&amp;rsquo;ve had several small hickups. I don&amp;rsquo;t blame Fedora for this, the problem is that I&amp;rsquo;ve grown accustomed to the ease of use of Ubuntu or Windows at the cost of using non-free software. Fedora ships only open source / free software in their standard package repositories which I think is a good thing.</description>
     </item>
     
